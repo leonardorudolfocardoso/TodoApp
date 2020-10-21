@@ -1,0 +1,40 @@
+.ActionBarContainer {
+    width: 80%;
+    background: var(--color-primary-light);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.8rem;
+}
+
+.ActionBar {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 0.8rem;
+}
+
+.ActionBar #blank-area {
+    width: 25px;
+    height: 25px;
+}
+
+.ActionBar textarea {
+    width: 80%;
+    background: var(--color-bg);
+    border-radius: 0.8rem;
+    margin: 1rem;
+    padding: 1rem;
+    resize: vertical;
+    font-size: 1.6rem;
+    color: var(--color-primary);
+}
+
+.ActionBar button {
+    background: var(--color-primary);
+    font-size: 1.2rem;
+    color: var(--color-bg);
+    border: none;
+    border-radius: 50%;
+}

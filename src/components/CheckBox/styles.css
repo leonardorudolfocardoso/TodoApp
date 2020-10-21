@@ -1,0 +1,14 @@
+.CheckBox button {
+    width: 25px;
+    height: 25px;
+    border: solid 0.15rem var(--color-primary);
+    border-radius: 25%;
+}
+
+.CheckBox button.checked {
+    background: var(--color-primary);
+}
+
+.CheckBox button.unchecked {
+    background: var(--color-bg);
+}

@@ -1,0 +1,9 @@
+.Main {
+    height: 100vh;
+    width: 100vw;
+    background: var(--color-primary-lighter);
+    display: flex;
+    flex-direction: column;
+    justify-content: initial;
+    align-items: center;
+}

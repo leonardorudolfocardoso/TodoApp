@@ -1,0 +1,32 @@
+.Todo {
+    /* height: 80%; */
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Todo #todo-text {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 1rem;
+    font-size: 1rem;
+    border-bottom: solid 0.2rem var(--color-primary);
+}
+
+.Todo #todo-text h1 {
+    color: var(--color-primary);
+    font-size: 1rem;
+}
+
+.Todo button#delete-button {
+    background: var(--color-primary);
+    border: none;
+    border-radius: 50%;
+    font-weight: 1000;
+    color: var(--color-bg);
+}

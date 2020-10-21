@@ -1,0 +1,17 @@
+.Container {
+    width: 80%;
+    border-radius: 0.8rem;
+    margin: 1.6rem auto;
+    background: var(--color-bg);
+}
+
+.Container .todoList {
+    width: 100%;
+    border-radius: 0.8rem;
+    margin: 1.6rem auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
